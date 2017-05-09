@@ -2,9 +2,12 @@
 
 This project follows the steps mentioned on the introduction chapter of [Ruby on Rails Official Guide](http://guides.rubyonrails.org/getting_started.html)
 
-Things you may want to cover:
+## Ruby and Rails Version Requirement
 
-* Ruby version
+For Ruby, suggests 2.3 or higher
+For Rails, suggests 5.0 or higher
+
+Things you may want to cover:
 
 * System dependencies
 
