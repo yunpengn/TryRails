@@ -1,4 +1,6 @@
-# README
+# Try Rails
+
+This project follows the steps mentioned on the introduction chapter of [Ruby on Rails Official Guide](http://guides.rubyonrails.org/getting_started.html)
 
 Things you may want to cover:
 
@@ -19,7 +21,3 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-
-# Try Rails
-
-This project follows the steps mentioned on the introduction chapter of [Ruby on Rails Official Guide](http://guides.rubyonrails.org/getting_started.html)
