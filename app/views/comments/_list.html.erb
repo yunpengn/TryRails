@@ -1,0 +1,13 @@
+<% if @article.comments.any? %>
+	<h2><%= pluralize(@article.comments.count, "Comment") %> for this article</h2>
+	<ul>
+		<% @article.comments.each do |i| %>
+			<li>
+				<p>Commented by <%= i.user %></p>
+				<p><%= i.content %></p>
+				<p><%= link_to 'Delete this comment', [i.article, i], method: :delete, 
+							   data: {confirm: 'Are you sure to delete the comment written by ' + i.user + '?' } %></p>
+			</li>
+		<% end %>
+	</ul>
+<% end %>

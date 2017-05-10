@@ -1,3 +1,4 @@
+<h1>View Article</h1>
 <p>
 	<strong>Title: </strong>
 	<%= @article.title %>
@@ -5,6 +6,16 @@
 
 <p>
 	<strong>Content: </strong>
-	<%= @article.content %><br>
+	<%= @article.content %><br><br>
+	<%= link_to 'Edit this article', edit_article_path %><br>
+	<%= link_to 'Delete this article', article_path, method: :delete, data: {confirm: 'Are you sure to delete ' + @article.title + '?' } %><br><br>
+</p>
+
+<%= render 'comments/list' %>
+
+<%# @article is visible to any rendering parts in the current view since it is an instance variable. %>
+<%= render 'comments/form' %>
+
+<p>
 	<%= link_to 'Back to All articles', articles_path %>
 </p>

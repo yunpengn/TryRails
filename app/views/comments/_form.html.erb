@@ -1,0 +1,17 @@
+<h2>Add a Comment</h2>
+<%# The first parameter of form_for here is an array of length 2. %>
+<%= form_for([@article, @article.comments.build]) do |fr| %>
+	<p>
+		<%= fr.label :user %>
+		<%= fr.text_field :user %>
+	</p>
+
+	<p>
+		<%= fr.label :content %>
+		<%= fr.text_area :content %>
+	</p>
+
+	<p>
+		<%= fr.submit %>
+	</p>
+<% end %>

@@ -14,3 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+// For windows user, add the two lines below.
+= require turbolinks
+= require_tree .
