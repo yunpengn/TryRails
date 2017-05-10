@@ -1,1 +1,6 @@
 <h1>Hello, Ruby! Welcome to the world of Rails!</h1>
+
+<%# link_to is one of Ruby's built-in helpers. %>
+<%# If the link is within the same controller, do not need to specify the :controller option. %>
+<%# Notice that we did not specify "articles_path", because index is the default action of a controller. %>
+<p><%= link_to 'Go to My Blog', controller: 'articles' %></p>
