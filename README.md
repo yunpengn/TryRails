@@ -4,8 +4,7 @@ This project follows the steps mentioned on the introduction chapter of [Ruby on
 
 ## Ruby and Rails Version Requirement
 
-For Ruby, suggests 2.3 or higher
-For Rails, suggests 5.0 or higher
+We are using Ruby 2.3.3 and Rails 5.0.1
 
 ## System dependencies
 
