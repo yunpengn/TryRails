@@ -1,10 +1,10 @@
-# Try Rails
+2# Try Rails
 
-This project follows the steps mentioned on the introduction chapter of [Ruby on Rails Official Guide](http://guides.rubyonrails.org/getting_started.html)
+This project follows the steps mentioned on the introduction chapter of [Ruby on Rails Official Guide](http://guides.rubyonrails.org/getting_started.html).
 
 ## Ruby and Rails Version Requirement
 
-We are using Ruby 2.3.3 and Rails 5.0.1
+We are using Ruby <code>2.3.3</code> and Rails <code>5.0.2</code>.
 
 ## System dependencies
 
@@ -21,10 +21,6 @@ This application does not depend on any third-party bundles. You only need to in
 ## Database initialization
 
 Things you may want to cover:
-
-* 
-
-* 
 
 * How to run the test suite
 
