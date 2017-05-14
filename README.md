@@ -1,4 +1,4 @@
-2# Try Rails
+# Try Rails
 
 This project follows the steps mentioned on the introduction chapter of [Ruby on Rails Official Guide](http://guides.rubyonrails.org/getting_started.html).
 
