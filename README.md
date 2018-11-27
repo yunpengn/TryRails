@@ -1,3 +1,5 @@
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=yunpengn/TryRails)](https://dependabot.com)
+
 # Try Rails
 
 This project follows the steps mentioned on the introduction chapter of [Ruby on Rails Official Guide](http://guides.rubyonrails.org/getting_started.html).
