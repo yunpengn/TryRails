@@ -22,7 +22,7 @@ gem 'coffee-rails', '~> 4.2'
 # gem 'therubyracer', platforms: :ruby
 
 # Fix the problem for Windows user.
-gem 'coffee-script-source', '1.8.0'
+gem 'coffee-script-source', '1.12.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
